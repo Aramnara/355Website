@@ -16,7 +16,7 @@
     <link href="images/favicon.jpg" rel="shortcut icon" type="image/x-icon">
     <link href="images/webclip.jpg" rel="apple-touch-icon">
 </head>
-<body class="body-10">
+<body>
 <div data-collapse="medium" data-animation="default" data-duration="400" class="homenavbar navbar-2 w-nav">
     <div class="w-container">
         <nav role="navigation" class="w-nav-menu"><a href="index.html" class="dropdown-toggle w-nav-link">Home</a>
@@ -53,7 +53,7 @@
                     <div class="w-icon-dropdown-toggle"></div>
                     <div>Admin</div>
                 </div>
-                <nav class="w-dropdown-list"><a href="php/indexinglauncher.php" class="dropdown-toggle w-dropdown-link">Indexing Launcher</a><a href="php/searchhistory.php" class="dropdown-link w-dropdown-link">Search History & Stats</a></nav>
+                <nav class="w-dropdown-list"><a href="indexinglauncher.html" class="dropdown-toggle w-dropdown-link">Indexing Launcher</a><a href="searchhistory.html" class="dropdown-link w-dropdown-link">Search History & Stats</a></nav>
             </div>
         </nav>
         <div class="w-nav-button">
@@ -61,27 +61,6 @@
         </div>
     </div>
 </div>
-<div class="section-16">
-    <div class="container-21 w-container">
-        <h1 class="heading-12">Search From Google API</h1>
-        <divmkdi class="html-embed-7 w-embed w-script"><a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-            <form id="searchbar" onscroll="fixToTop()" class="example" action="javascript:void(0);">
-                <input type="text" placeholder="Search and Press Enter" name="search">
-                <button type="submit"><i class="fa fa-search"></i></button>
-            </form>
-            <div class="results">
-            </div>
-            <div class="selectors">
-                <button type="button" onclick="selectAll()">Select All</button>
-                <button type="button" onclick="deselectAll()">Deselect All</button>
-            </div>
-            <div class="save">
-                <button type="button" onclick="writeJSON()">Export JSON</button>
-                <button type="button" onclick="writeCSV()">Export CSV</button>
-                <button type="button" onclick="writeXML()">Export XML</button>
-                <br><br>
-                <a style="display: none; width: fit-content;" href="" id="a" download="">Download file</a>
-            </div>
             <script>
                 function myFunction() {
                     let x = document.getElementById("myTopnav");
